@@ -58,6 +58,9 @@ margin-top:0px;
 	position:relative;
 	float:left;
 }
+#box {
+	margin-top:10px;
+}
 footer {
 	width:1333px;
 }
