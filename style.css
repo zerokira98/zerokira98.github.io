@@ -20,6 +20,9 @@ margin-top:0px;
 #title-txt {
 	padding-top:100px;
 }
+a {
+	text-decoration: none;
+}
 #main {
 	width:1333px;
 	background-color:#ddd;
