@@ -1,1 +1,1 @@
-$("p").css("background-color", "yellow");
+$("h1").css("background-color", "yellow");
