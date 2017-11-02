@@ -18,8 +18,10 @@ body {
 a{
 	color: white;
 }
+#templatemo_menu_section {
+    height: auto;
+}
 #templatemo_menu_section ul li a {
-    color: white;
 		height : auto;
 		margin-left: 5px;
 }
