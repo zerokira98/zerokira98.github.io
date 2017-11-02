@@ -6,5 +6,13 @@
 }
 .templatemo_left_section_box_top {
     background: none;
-
+}
+#templatemo_logo_section {
+    background: none;
+}
+a{
+	color: white;
+}
+#templatemo_menu_section ul li a {
+    color: white;
 }
