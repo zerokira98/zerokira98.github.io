@@ -1,6 +1,12 @@
 var link = "http://www.facebook.com/messavb";
 var fbook = "<li><a href="+link+">Facebook</a></li>";
 
+var options = [
+      {selector: '#templatemo_footer', offset: 50, callback: function(el) {
+        Materialize.toast("End of the page...", 1500 );
+      } }
+    ];
+    Materialize.scrollFire(options);
 $("#templatemo_menu_section ul").append(fbook);
 $("#templatemo_menu_section").addClass('card-panel red darken-2');
 $("#templatemo_menu_section ul li a").addClass('white-text waves-effect waves-light btn-flat red');
