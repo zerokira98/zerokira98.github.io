@@ -30,6 +30,13 @@ a{
     height: auto;
     background: none;
 }
+
+templatemo_style.css:349
+.templatemo_right_section_box h1 {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+	}
 span.post {
     margin: 0 25px 0 0;
     color: #c60;
