@@ -23,6 +23,9 @@ margin-top:0px;
 a {
 	text-decoration: none;
 }
+#parallax-container{
+	display : block;
+}
 #main {
 	width:1333px;
 	background-color:#ddd;
