@@ -21,13 +21,14 @@ a{
 }
 #templatemo_menu_section {
     height: auto;
+		background: #ee6e73;
 }
 #templatemo_menu_section ul li a {
 		height : auto;
 		margin-left: 5px;
 }
 #templatemo_menu_section li a:hover {
-    color: #fff;
+    color: #ea454b;
     height: auto;
     background: none;
 }
