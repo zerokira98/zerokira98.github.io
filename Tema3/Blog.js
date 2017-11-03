@@ -3,7 +3,7 @@ var fbook = "<li><a href="+link+">Facebook</a></li>";
 var parralaks = "<div class='parallax-container'><div class='parallax'><img src='https://zerokira98.github.io/Res/vlcsnap-2017-05-29-17h53m02s337.png'></div></div>"
 
 $("body").prepend(parralaks);
-$("#templatemo_background_section_top").clone().appendTo(".parallax-container");
+$("#templatemo_background_section_top").clone().appendTo(".parallax-container").attr('id','header');
 
 var options = [
       {selector: '#templatemo_footer', offset: 10, callback: function(el) {
