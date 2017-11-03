@@ -46,6 +46,14 @@ a{
 	    font-size: 15px;
 	    text-decoration: none;
 		}
+		.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+.parallax img{
+	filter: blur(5px);
+}
 span.post {
     margin: 0 25px 0 0;
     color: #c60;
