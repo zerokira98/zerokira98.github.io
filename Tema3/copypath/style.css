@@ -1,0 +1,61 @@
+body {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+		backgroud:#fcfcfc;
+
+}
+
+#templatemo_background_section_top {
+    width: 100%;
+    height: 157px;
+    background: none;
+}
+.templatemo_left_section_box_top {
+    background: none;
+		height: auto;
+    font-size: 22px;
+}
+#templatemo_logo_section {
+    background: none;
+		padding: 0px;
+}
+a{
+	color: white;
+}
+#templatemo_background_section_mid {
+    background: #fcfcfc;
+}
+#templatemo_menu_section {
+    height: auto;
+		background: #ee6e73;
+}
+#templatemo_menu_section ul li a {
+		height : auto;
+		margin-left: 5px;
+}
+#templatemo_menu_section li a:hover {
+    height: auto;
+    background: #ea454b;
+}
+.templatemo_right_section_box h1 {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+	}
+	.templatemo_middle_section_box h1 {
+	    color: black;
+	    font-size: 15px;
+	    text-decoration: none;
+		}
+		.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 240px;
+}
+.parallax img{
+	filter: blur(5px);
+}
+span.post {
+    margin: 0 25px 0 0;
+    color: #c60;
+    font-size: 14px;
+}
