@@ -3,21 +3,13 @@ var fbook = "<li><a href="+link+">Facebook</a></li>";
 var parralaks = "<div class='parallax-container'><div class='parallax'><img src='https://zerokira98.github.io/Res/vlcsnap-2017-05-29-17h53m02s337.png'></div></div>"
 var options = [
       {selector: '#templatemo_footer', offset: 10, callback: function(el) {
-        Materialize.toast("End of the page...", 1500 );
+        Materialize.toast("End of the page...", 2500 );
       } }
     ];
     Materialize.scrollFire(options);
     $(document).ready(function(){
       $('.parallax').parallax();
     });
-    $(document).ready(function() {
-    var page = $('#content');  // set to the main content of the page
-    $(window).mousewheel(function(event, delta, deltaX, deltaY){
-        if (delta < 0) page.scrollTop(page.scrollTop() + 65);
-        else if (delta > 0) page.scrollTop(page.scrollTop() - 65);
-        return false;
-    })
-});
 
 $("#templatemo_menu_section ul").append(fbook);
 $("#templatemo_menu_section").addClass('card-panel');
