@@ -10,6 +10,14 @@ var options = [
     $(document).ready(function(){
       $('.parallax').parallax();
     });
+    $(document).ready(function() {
+    var page = $('#content');  // set to the main content of the page
+    $(window).mousewheel(function(event, delta, deltaX, deltaY){
+        if (delta < 0) page.scrollTop(page.scrollTop() + 65);
+        else if (delta > 0) page.scrollTop(page.scrollTop() - 65);
+        return false;
+    })
+});
 $("#templatemo_menu_section ul").append(fbook);
 $("#templatemo_menu_section").addClass('card-panel');
 $("#templatemo_menu_section ul li a").addClass('white-text waves-effect waves-light btn-flat');
