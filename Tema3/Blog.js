@@ -22,5 +22,6 @@ $(".templatemo_left_section_box_top").addClass('card-panel red darken-1 white-te
 $(".templatemo_left_section_box_top a").addClass('white-text text-darken-2');
 $(".templatemo_left_section_box_body").addClass('card-panel');
 $(".templatemo_middle_section_box").addClass('card-panel');
-$("#templatemo_left_section").addClass('col s9').attr('id','left_section');
-$("#templatemo_right_section").addClass('col s3').attr('id','right_section');
+$("#templatemo_content_area").addClass('row');
+$("#templatemo_left_section").addClass('col s12 m9 l9');
+$("#templatemo_right_section").addClass('col s12 m3 l3');

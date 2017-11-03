@@ -11,7 +11,11 @@ body {
 .templatemo_left_section_box_top {
     background: none;
 		height: auto;
+    width:100%;
     font-size: 22px;
+}
+.templatemo_left_section_box_body {
+    width:100%;
 }
 #templatemo_middle_section{
   display: none;
