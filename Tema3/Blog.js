@@ -4,6 +4,7 @@ var parralaks = "<div class='parallax-container'><div class='parallax'><img src=
 
 $("body").prepend(parralaks);
 $("#templatemo_background_section_top").clone().appendTo(".parallax-container");
+
 var options = [
       {selector: '#templatemo_footer', offset: 10, callback: function(el) {
         Materialize.toast("End of the page...", 1500 );
