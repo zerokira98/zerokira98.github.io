@@ -3,6 +3,7 @@ body {
 		backgroud:#fcfcfc;
 
 }
+
 #templatemo_background_section_top {
     width: 100%;
     height: 157px;
@@ -19,6 +20,9 @@ body {
 a{
 	color: white;
 }
+#templatemo_background_section_mid {
+    background: #fcfcfc;
+}
 #templatemo_menu_section {
     height: auto;
 		background: #ee6e73;
@@ -28,9 +32,8 @@ a{
 		margin-left: 5px;
 }
 #templatemo_menu_section li a:hover {
-    color: #ea454b;
     height: auto;
-    background: none;
+    background: #ea454b;
 }
 
 .templatemo_right_section_box h1 {
