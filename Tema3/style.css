@@ -13,6 +13,9 @@ body {
 		height: auto;
     font-size: 22px;
 }
+#templatemo_middle_section{
+  display: none;
+}
 #templatemo_logo_section {
     background: none;
 		padding: 0px;
@@ -26,7 +29,9 @@ body {
 }
 #templatemo_menu_section ul li a {
 		height : auto;
-		margin-left: 5px;
+    padding-bottom: 8px;
+    width: auto;
+    font-weight: normal;
 }
 #templatemo_menu_section li a:hover {
     height: auto;
