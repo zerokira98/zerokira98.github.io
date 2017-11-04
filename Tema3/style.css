@@ -8,6 +8,10 @@ body {
     background: none;
     display: none;
 }
+#templatemo_content_area {
+    margin: -50px 0 0 0;
+    border-radius: 10px;
+}
 .templatemo_left_section_box_top {
     background: none;
 		height: auto;
@@ -26,7 +30,7 @@ body {
 		padding: 0px;
 }
 #templatemo_background_section_mid {
-    background: #fcfcfc;
+    background: none;
 }
 #templatemo_menu_section {
     height: auto;
@@ -55,10 +59,13 @@ body {
 		.parallax-container {
     position: relative;
     overflow: hidden;
-    height: 240px;
+    height: 340px;
 }
 .parallax img{
 	filter: blur(5px);
+}
+#header{
+  margin-top: 50px;
 }
 span.post {
     margin: 0 25px 0 0;
