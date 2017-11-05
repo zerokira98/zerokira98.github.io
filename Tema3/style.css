@@ -21,6 +21,12 @@ body {
 .templatemo_left_section_box_body {
     width:100%;
 }
+.templatemo_left_section_box_body p {
+    text-align: justify;
+    color: #333;
+    font-size: 15px;
+    margin: 0 0 10px 0;
+}
 
 #templatemo_middle_section{
   display: none;
