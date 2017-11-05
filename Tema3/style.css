@@ -46,6 +46,9 @@ body {
     height: auto;
     background: #ea454b;
 }
+.templatemo_right_section_box  {
+  width: 100%;
+	}
 .templatemo_right_section_box h1 {
     color: black;
     font-size: 15px;
