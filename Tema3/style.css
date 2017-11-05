@@ -50,7 +50,7 @@ body {
 }
 #templatemo_menu_section li a:hover {
     height: auto;
-    background: #ea454b;
+    background: rgba(0, 0, 0, 0.2);
 }
 .templatemo_right_section_box  {
   width: 100%;
