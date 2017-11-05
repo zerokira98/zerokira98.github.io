@@ -1,0 +1,15 @@
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<link rel="stylesheet" href="https://zerokira98.github.io/Tema3/style.css"> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+<script>
+//-------------------editable
+var NamaMenu1 = "Facebook";
+var link1 = "http://www.facebook.com/messavb";
+var NamaMenu2 = "Instagram";
+var link2 = "http://www.instagram.com/rizalafif84";
+var BackgroundTop = "https://1.bp.blogspot.com/-s8aDze3MmAk/WQsW5gtgpMI/AAAAAAAAAJg/zC98xe9lZBERyBVaadC66xlhp02cx_z_wCLcB/s1600/unair-slidercpy-4.png";
+var panelcolor = "blue darken-1";
+</script>
+<script type="text/javascript" src="https://zerokira98.github.io/Tema3/Bl
