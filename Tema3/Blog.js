@@ -1,21 +1,19 @@
-var link = "http://www.facebook.com/messavb";
-var fbook = "<li><a href="+link+">Facebook</a></li>";
-var parralaks = "<div class='parallax-container'><div class='parallax'><img src='https://1.bp.blogspot.com/-s8aDze3MmAk/WQsW5gtgpMI/AAAAAAAAAJg/zC98xe9lZBERyBVaadC66xlhp02cx_z_wCLcB/s1600/unair-slidercpy-4.png'></div></div>"
+//------------------code
 
+var parralaks = "<div class='parallax-container'><div class='parallax'><img src="+BackgroundTop+"></div></div>"
 $("body").prepend(parralaks);
 $("#templatemo_background_section_top").clone().appendTo(".parallax-container").attr('id','header');
 
-var options = [
-      {selector: '#templatemo_footer', offset: 10, callback: function(el) {
-        Materialize.toast("Hi", 1500 );
-      } }
-    ];
-    Materialize.scrollFire(options);
     $(document).ready(function(){
       $('.parallax').parallax();
       $(".templatemo_right_section_box").addClass('card-panel');
     });
-$("#templatemo_menu_section ul").append(fbook);
+//----Add Menu
+var menu1 = "<li><a href="+link1+">"+NamaMenu1+"</a></li>";
+$("#templatemo_menu_section ul").append(menu1);
+var menu2 = "<li><a href="+link2+">"+NamaMenu2+"</a></li>";
+$("#templatemo_menu_section ul").append(menu2);
+//----End Add Menu
 $("#templatemo_menu_section").addClass('card-panel');
 $("#templatemo_menu_section ul li a").addClass('white-text waves-effect waves-light btn-flat');
 $(".templatemo_left_section_box_top").addClass('card-panel red white-text waves-effect waves-light');
