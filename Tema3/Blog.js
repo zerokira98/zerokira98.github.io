@@ -15,7 +15,7 @@ var menu2 = "<li><a href="+link2+">"+NamaMenu2+"</a></li>";
 $("#templatemo_menu_section ul").append(menu1).append(menu2);
 //----End Add Menu
 $("#templatemo_menu_section").addClass('card-panel '+panelcolor);
-$("#templatemo_menu_section ul li a").addClass('white-text waves-effect waves-light btn-flat '+panelcolor);
+$("#templatemo_menu_section ul li a").addClass('white-text waves-effect waves-light btn-flat ');
 $(".templatemo_left_section_box_top").addClass('card-panel white-text waves-effect waves-light '+panelcolor);
 $(".templatemo_left_section_box_top a").addClass('white-text text-darken-2');
 $(".templatemo_left_section_box_body").addClass('card-panel');
