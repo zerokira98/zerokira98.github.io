@@ -12,8 +12,7 @@ $("#templatemo_background_section_top").clone().appendTo(".parallax-container").
 //----Add Menu
 var menu1 = "<li><a href="+link1+">"+NamaMenu1+"</a></li>";
 var menu2 = "<li><a href="+link2+">"+NamaMenu2+"</a></li>";
-$("#templatemo_menu_section ul").append(menu1);
-$("#templatemo_menu_section ul").append(menu2);
+$("#templatemo_menu_section ul").append(menu1).append(menu2);
 //----End Add Menu
 $("#templatemo_menu_section").addClass('card-panel '+panelcolor);
 $("#templatemo_menu_section ul li a").addClass('white-text waves-effect waves-light btn-flat '+panelcolor);
