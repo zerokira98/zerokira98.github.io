@@ -12,6 +12,10 @@ body {
     margin: -50px 0 0 0;
     border-radius: 10px;
 }
+.templatemo_container {
+    width: 80%;
+    margin: auto;
+}
 .templatemo_left_section_box_top {
     background: none;
 		height: auto;
