@@ -8,9 +8,10 @@ $("#templatemo_background_section_top").clone().appendTo(".parallax-container").
     $(document).ready(function(){
       $('.parallax').parallax();
       $(".templatemo_right_section_box").addClass('card-panel');
+      var gitwidth = $(".templatemo_left_section_box_body").width();
       $(".templatemo_left_section_box_body").resize(function() {
-          $(".gist").width($(".templatemo_left_section_box_body").width());
-  });
+          $(".gist").width(gitwidth);
+        });
     });
 //----Add Menu
 var menu1 = "<li><a href="+link1+">"+NamaMenu1+"</a></li>";
