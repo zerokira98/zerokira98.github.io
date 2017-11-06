@@ -8,7 +8,7 @@ $("#templatemo_background_section_top").clone().appendTo(".parallax-container").
     $(document).ready(function(){
       $('.parallax').parallax();
       $(".templatemo_right_section_box").addClass('card-panel');
-      var gitwidth = $(".templatemo_left_section_box_top").width();
+      var gitwidth = $(".left_section").width();
       $(".gist").width(gitwidth);
     });
 //----Add Menu
