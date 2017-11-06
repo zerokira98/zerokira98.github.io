@@ -14,6 +14,8 @@ var menu1 = "<li><a href="+link1+">"+NamaMenu1+"</a></li>";
 var menu2 = "<li><a href="+link2+">"+NamaMenu2+"</a></li>";
 $("#templatemo_menu_section ul").append(menu1).append(menu2);
 //----End Add Menu
+var boxbodywidth = $(".templatemo_left_section_box_body").width();
+$(".gist").width('boxbodywidth');
 $("#templatemo_menu_section").addClass('card-panel '+panelcolor);
 $("#templatemo_menu_section ul li a").addClass('white-text waves-effect waves-light btn-flat ');
 $(".templatemo_left_section_box_top").addClass('card-panel white-text waves-effect waves-light '+panelcolor);
