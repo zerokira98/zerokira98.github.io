@@ -1,3 +1,9 @@
+@media screen and (max-width: 480px) {
+    body {
+        width: 676px;
+    }
+}
+
 body {
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
 		backgroud:#fcfcfc;
@@ -48,6 +54,9 @@ body {
     width: 100%;
 		background: #ee6e73;
 }
+#templatemo_menu_section ul {
+		width:100%;
+}
 #templatemo_menu_section ul li a {
 		height : auto;
     padding-bottom: 8px;
@@ -84,7 +93,7 @@ body {
 }
 #header{
   margin-top: 50px;
-  width: 70%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
