@@ -9,7 +9,7 @@ $("#templatemo_background_section_top").clone().appendTo(".parallax-container").
       $('.parallax').parallax();
       $(".templatemo_right_section_box").addClass('card-panel');
       $(".templatemo_left_section_box_body").resize(function() {
-          $(".gist").width($(this).width());
+          $(".gist").width($(".templatemo_left_section_box_body").width());
   });
     });
 //----Add Menu
