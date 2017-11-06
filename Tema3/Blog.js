@@ -23,3 +23,4 @@ $(".templatemo_middle_section_box").addClass('card-panel');
 $("#templatemo_content_area").addClass('row card-panel');
 $("#templatemo_left_section").addClass('col s12 m12 l9').attr('id','left_section');
 $("#templatemo_right_section").addClass('col s12 m12 l3').attr('id','right_section');
+$("#header templatemo_container").attr('id', 'menu_container');
