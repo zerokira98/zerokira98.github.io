@@ -30,5 +30,8 @@ $("#templatemo_left_section").addClass('col s12 m12 l9').attr('id','left_section
 $("#templatemo_right_section").addClass('col s12 m12 l3').attr('id','right_section');
 $("#header .templatemo_container").attr('class', 'menu_container');
 //---- Add Modal
-var modalpanel = "<div id='modal1' class='modal bottom-sheet'><div class='modal-content'><h4>Modal Header</h4><p>A bunch of text</p></div><div class='modal-footer'><a href='#!' class='modal-action modal-close waves-effect waves-green btn-flat'>Agree</a></div></div>";
+var modalmenu1 = "<li><a href='index.html' class='white-text waves-effect waves-light btn-flat '>Home</a></li>";
+var modalmenu2 = "<li><a href='profil.html' class='white-text waves-effect waves-light btn-flat '>Profil</a></li>";
+var modalmenu3 = "<li><a href='http://web.unair.ac.id/login.html' class='white-text waves-effect waves-light btn-flat '>Login</a></li>";
+var modalpanel = "<div id='modal1' class='modal bottom-sheet'><div class='modal-content'><h4>Modal Header</h4><p>A bunch of text</p>"+modalmenu1+modalmenu2+modalmenu3+menu1+menu2"</div><div class='modal-footer'><a href='#!' class='modal-action modal-close waves-effect waves-green btn-flat'>Agree</a></div></div>";
 $('body').append(modalpanel);
