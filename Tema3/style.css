@@ -2,6 +2,12 @@
     body {
         width: 676px;
     }
+    #templatemo_menu_section ul li a{
+      visibility: hidden;
+    }
+    #templatemo_menu_section .material-icons{
+      display: block;
+    }
 }
 body {
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
@@ -59,6 +65,7 @@ body {
 #templatemo_background_section_mid {
     background: none;
 }
+
 #templatemo_menu_section {
     height: auto;
     width: 100%;
@@ -76,6 +83,9 @@ body {
 #templatemo_menu_section li a:hover {
     height: auto;
     background: rgba(0, 0, 0, 0.2);
+}
+#templatemo_menu_section .material-icons{
+  display: none;
 }
 .templatemo_right_section_box  {
   width: 100%;
