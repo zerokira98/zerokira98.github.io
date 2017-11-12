@@ -1,12 +1,12 @@
-@media screen and (max-width: 676px) {
+@media screen and (max-width: 720px) {
     body {
-        width: 676px;
+        width: 700px;
     }
     #templatemo_menu_section .visimenu{
-      visibility: hidden;
+      display: none;
     }
     #templatemo_menu_section .modal-trigger{
-      display: block;
+      display: block !important;
       float:right;
     }
 }
@@ -75,7 +75,7 @@ body {
 #templatemo_menu_section ul {
 		width:100%;
 }
-#templatemo_menu_section .visimenu{
+#templatemo_menu_section ul li a{
 		height : auto;
     padding-bottom: 8px;
     width: auto;
