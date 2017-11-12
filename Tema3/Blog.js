@@ -10,6 +10,7 @@ $("#templatemo_background_section_top").clone().appendTo(".parallax-container").
       $(".templatemo_right_section_box").addClass('card-panel');
       var gitwidth = $(".left_section").width();
       $(".gist").width(gitwidth);
+      $('.modal').modal();
     });
 //----Add Menu
 var menu1 = "<li><a href="+link1+">"+NamaMenu1+"</a></li>";
