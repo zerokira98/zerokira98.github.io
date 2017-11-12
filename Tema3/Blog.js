@@ -33,6 +33,6 @@ $("#header .templatemo_container").attr('class', 'menu_container');
 var modalmenu1 = "<li><a href='index.html'>Home</a></li>";
 var modalmenu2 = "<li><a href='profil.html'>Profil</a></li>";
 var modalmenu3 = "<li><a href='http://web.unair.ac.id/login.html' >Login</a></li>";
-var modalpanel = "<div id='modal1' class='modal bottom-sheet'><div class='modal-content'><h4>Menu</h4>"+modalmenu1+modalmenu2+modalmenu3+menu1+menu2+"</div><div class='modal-footer'><a href='#!' class='modal-action modal-close waves-effect waves-green btn-flat'>Agree</a></div></div>";
+var modalpanel = "<div id='modal1' class='modal bottom-sheet'><div class='modal-content'><h4>Menu</h4>"+modalmenu1+modalmenu2+modalmenu3+menu1+menu2+"</div></div>";
 $('body').append(modalpanel);
-$('.modal-content li a').addClass('card-panel grey lighten-3 black-text');
+$('.modal-content li').addClass('btn-flat grey lighten-4 black-text');
