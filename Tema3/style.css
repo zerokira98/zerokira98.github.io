@@ -2,7 +2,7 @@
     body {
         width: 676px;
     }
-    #templatemo_menu_section ul li a{
+    #templatemo_menu_section ul li {
       visibility: hidden;
     }
     #templatemo_menu_section .modal-trigger{
@@ -11,7 +11,7 @@
     }
 }
 body {
-    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 15px;
 		backgroud:#fcfcfc;
 }
