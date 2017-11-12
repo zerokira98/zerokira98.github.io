@@ -5,8 +5,8 @@
     #templatemo_menu_section ul li a{
       visibility: hidden;
     }
-    #templatemo_menu_section .material-icons{
-      visibility: visible;
+    #templatemo_menu_section .modal-trigger{
+      display: block;
       float:right;
     }
 }
@@ -85,8 +85,8 @@ body {
     height: auto;
     background: rgba(0, 0, 0, 0.2);
 }
-#templatemo_menu_section .material-icons{
-  visibility: hidden;
+#templatemo_menu_section .modal-trigger{
+  display: none;
 }
 .templatemo_right_section_box  {
   width: 100%;

@@ -27,3 +27,6 @@ $("#templatemo_content_area").addClass('row card-panel');
 $("#templatemo_left_section").addClass('col s12 m12 l9').attr('id','left_section');
 $("#templatemo_right_section").addClass('col s12 m12 l3').attr('id','right_section');
 $("#header .templatemo_container").attr('class', 'menu_container');
+//---- Add Modal
+var modalpanel = " <div id='modal1' class='modal bottom-sheet'><div class='modal-content'><h4>Modal Header</h4><p>A bunch of text</p></div><div class='modal-footer'><a href='#!' class='modal-action modal-close waves-effect waves-green btn-flat'>Agree</a></div></div>";
+$(body).append(modalpanel);
