@@ -2,7 +2,7 @@
     body {
         width: 676px;
     }
-    #templatemo_menu_section ul li {
+    #templatemo_menu_section .visimenu{
       visibility: hidden;
     }
     #templatemo_menu_section .modal-trigger{
@@ -75,7 +75,7 @@ body {
 #templatemo_menu_section ul {
 		width:100%;
 }
-#templatemo_menu_section ul li a {
+#templatemo_menu_section .visimenu{
 		height : auto;
     padding-bottom: 8px;
     width: auto;

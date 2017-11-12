@@ -14,11 +14,12 @@ $("#templatemo_background_section_top").clone().appendTo(".parallax-container").
 //----Add Menu
 var menu1 = "<li><a href="+link1+">"+NamaMenu1+"</a></li>";
 var menu2 = "<li><a href="+link2+">"+NamaMenu2+"</a></li>";
-$("#templatemo_menu_section ul").append(menu1).append(menu2).append("<lie><a class='modal-trigger' href='#modal1'><i class='material-icons'>menu</i></a></lie>");
+$("#templatemo_menu_section ul").append(menu1).append(menu2).append("<li><a class='white-text modal-trigger' href='#modal1'><i class='material-icons'>menu</i></a></li>");
 //----End Add Menu
 
 $("#templatemo_menu_section").addClass('card-panel '+panelcolor);
-$("#templatemo_menu_section ul li a").addClass('white-text waves-effect waves-light btn-flat ');
+$("#templatemo_menu_section ul li a").addClass('white-text waves-effect waves-light btn-flat visimenu');
+$(".modal-trigger").removeClass('visimenu');
 $(".templatemo_left_section_box_top").addClass('card-panel white-text waves-effect waves-light '+panelcolor);
 $(".templatemo_left_section_box_top a").addClass('white-text text-darken-2');
 $(".templatemo_left_section_box_body").addClass('card-panel');
@@ -28,5 +29,5 @@ $("#templatemo_left_section").addClass('col s12 m12 l9').attr('id','left_section
 $("#templatemo_right_section").addClass('col s12 m12 l3').attr('id','right_section');
 $("#header .templatemo_container").attr('class', 'menu_container');
 //---- Add Modal
-var modalpanel = " <div id='modal1' class='modal bottom-sheet'><div class='modal-content'><h4>Modal Header</h4><p>A bunch of text</p></div><div class='modal-footer'><a href='#!' class='modal-action modal-close waves-effect waves-green btn-flat'>Agree</a></div></div>";
-$(body).append(modalpanel);
+var modalpanel = "<div id='modal1' class='modal bottom-sheet'><div class='modal-content'><h4>Modal Header</h4><p>A bunch of text</p></div><div class='modal-footer'><a href='#!' class='modal-action modal-close waves-effect waves-green btn-flat'>Agree</a></div></div>";
+$('body').append(modalpanel);
