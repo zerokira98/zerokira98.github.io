@@ -6,7 +6,8 @@
       visibility: hidden;
     }
     #templatemo_menu_section .material-icons{
-      display: block;
+      visibility: visible;
+      float:right;
     }
 }
 body {
@@ -85,7 +86,7 @@ body {
     background: rgba(0, 0, 0, 0.2);
 }
 #templatemo_menu_section .material-icons{
-  display: none;
+  visibility: hidden;
 }
 .templatemo_right_section_box  {
   width: 100%;
