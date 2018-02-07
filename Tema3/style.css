@@ -1,6 +1,6 @@
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 601px) {
     body {
-        width: 700px;
+        width: 601px;
     }
     #templatemo_menu_section .visimenu{
       display: none;
