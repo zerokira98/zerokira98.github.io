@@ -38,5 +38,4 @@ var modalmenu2 = "<li><a href='profil.html'>Profil</a></li>";
 var modalmenu3 = "<li><a href='http://web.unair.ac.id/login.html' >Login</a></li>";
 var modalpanel = "<div id='modal1' class='modal bottom-sheet'><div class='modal-content'><h4>Menu</h4><ul>"+modalmenu1+modalmenu2+modalmenu3+menu1+menu2+"</ul></div></div>";
 $('body').append(modalpanel);
-$('.modal-content ul li a').addClass('black-text');
-$('.modal-content ul li').addClass('btn-flat');
+$('.modal-content ul li a').addClass('btn-flat waves-effect waves-light black-text');

@@ -1,6 +1,6 @@
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 711px) {
     body {
-        width: 601px;
+        width: 711px;
     }
     #templatemo_menu_section .visimenu{
       display: none;
@@ -122,6 +122,7 @@ span.post {
 }
 .modal-content li {
   list-style: none;
+  display: block;
 }
 .modal-content li a {
   width: 100%;
