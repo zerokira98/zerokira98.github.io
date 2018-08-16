@@ -1,5 +1,6 @@
 
 //------------------code
+$('head').append('<meta name="viewport" content="width=device-width,initial-scale=1.0">');
 
 var parralaks = "<div class='parallax-container'><div class='parallax'><img src="+BackgroundTop+"></div></div>"
 $("body").prepend(parralaks);
@@ -39,3 +40,6 @@ var modalmenu3 = "<li><a href='http://web.unair.ac.id/login.html' >Login</a></li
 var modalpanel = "<div id='modal1' class='modal bottom-sheet'><div class='modal-content'><h4>Menu</h4><ul>"+modalmenu1+modalmenu2+modalmenu3+menu1+menu2+"</ul></div></div>";
 $('body').append(modalpanel);
 $('.modal-content ul li a').addClass('btn-flat waves-effect waves-light black-text');
+
+//---- delete kolom komentar
+$('form[name*="form3"]').parent().remove();
