@@ -1,6 +1,7 @@
 @media screen and (max-width: 711px) {
     body {
         width: 711px;
+	  
     }
     #templatemo_menu_section .visimenu{
       display: none;
@@ -9,10 +10,14 @@
       display: block !important;
       float:right;
     }
+.templatemo_container {
+    width: 95%;
+    margin: auto;
+}
 }
 body {
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    font-size: 25px;
 		backgroud:#fcfcfc;
 }
 #templatemo_background_section_top {
