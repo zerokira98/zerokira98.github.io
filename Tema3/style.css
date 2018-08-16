@@ -1,8 +1,24 @@
 @media screen and (max-width: 711px) {
+	#header {
+    margin-top: 70px;
+	}
     body {
         width: 711px;
 	  
     }
+	.card-panel{
+		padding: 20px;
+	}
+	#templatemo_menu_section ul li a {
+    padding-bottom: 18px;
+}
+	#templatemo_menu_section ul li a {
+    padding-top: 18px;
+    font-size: 20px;
+	}
+	.templatemo_left_section_box_top {
+    font-size: 30px;
+}
     #templatemo_menu_section .visimenu{
       display: none;
     }
