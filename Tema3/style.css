@@ -1,4 +1,16 @@
-@media screen and (max-width: 711px) {
+@media screen and (max-width: 601px) {
+		#templatemo_menu_section ul li a {
+    padding-bottom: 18px;
+}
+	#templatemo_menu_section ul li a {
+    padding-top: 18px;
+    font-size: 20px;
+	}
+	.templatemo_left_section_box_top {
+    font-size: 30px;
+}
+}
+@media screen and (max-width: 601px) {
 	#header {
     margin-top: 70px;
 	}
@@ -9,16 +21,6 @@
 	.card-panel{
 		padding: 20px;
 	}
-	#templatemo_menu_section ul li a {
-    padding-bottom: 18px;
-}
-	#templatemo_menu_section ul li a {
-    padding-top: 18px;
-    font-size: 20px;
-	}
-	.templatemo_left_section_box_top {
-    font-size: 30px;
-}
     #templatemo_menu_section .visimenu{
       display: none;
     }
@@ -33,7 +35,7 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-    font-size: 25px;
+    font-size: 15px;
 		backgroud:#fcfcfc;
 }
 #templatemo_background_section_top {
