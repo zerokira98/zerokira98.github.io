@@ -1,4 +1,4 @@
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 720px) {
 		#templatemo_menu_section ul li a {
     padding-bottom: 18px;
 }
@@ -10,12 +10,12 @@
     font-size: 30px;
 }
 }
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 720px) {
 	#header {
     margin-top: 70px;
 	}
     body {
-        width: 711px;
+        width: 720px;
 	  
     }
 	.card-panel{
