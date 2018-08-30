@@ -1,12 +1,12 @@
 
 //------------------code
-$('head').append('<meta name="viewport" content="width=device-width,initial-scale=1.0">');
 
-var parralaks = "<div class='parallax-container'><div class='parallax'><img src="+BackgroundTop+"></div></div>"
+var parralaks = "<div class='parallax-container'><div class='parallax'><img src="+BackgroundTop+"></div></div>";
 $("body").prepend(parralaks);
 $("#templatemo_background_section_top").clone().appendTo(".parallax-container").attr('id','header');
 
     $(document).ready(function(){
+$('head').append('<meta name="viewport" content="width=device-width,initial-scale=1.0">');
       $('.parallax').parallax();
       $(".templatemo_right_section_box").addClass('card-panel');
       var gitwidth = $(".left_section").width();
