@@ -1,140 +1,143 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="iziModal-master/css/iziModal.min.css">
-<!--Import materialize.css-->
-<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
-<link href="style.css" rel="stylesheet" type="text/css">
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Batch G-drive</title>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="newwebsite">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+<style> body,
+  html {
+    background: #002F74;
+  }
+    .spin-container {
+        text-align: center;
+        margin-top: 25%;
+      }
+      .spin {
+        border: 3px solid #0D4B9F;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+        border-radius: 50%;
+        border-top-color: transparent;
+        border-bottom-color: transparent;
+        animation: rotate 3s cubic-bezier(0.26, 1.36, 0.74, -0.29) infinite;
+      }
+      #loader2 {
+        border: 3px solid #E0EDFF;
+        width: 220px;
+        height: 220px;
+        position: relative;
+        top: -216px;
+        border-top-color: transparent;
+        border-bottom-color: transparent;
+        animation: rotate2 2s cubic-bezier(0.26, 1.36, 0.74, -0.29) infinite;
+      }
+      #loader3 {
+        border: 3px solid #005CDC;
+        width: 240px;
+        height: 240px;
+        position: relative;
+        top: -452px;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        animation: rotate 2.5s cubic-bezier(0.26, 1.36, 0.74, -0.29) infinite;
+      }
+      #loader4 {
+        border: 3px solid #94B6E5;
+        width: 260px;
+        height: 260px;
+        position: relative;
+        top: -708px;
+        border-left-color: transparent;
+        border-right-color: transparent;
+        animation: rotate3 2s cubic-bezier(0.26, 1.36, 0.74, -0.29) infinite;
+      }
+      @keyframes rotate {
+        0% {
+          transform: rotateZ(-360deg)
+        }
+        100% {
+          transform: rotateZ(0deg)
+        }
+      }
+      @keyframes rotate2 {
+        0% {
+          transform: rotateZ(360deg)
+        }
+        100% {
+          transform: rotateZ(0deg)
+        }
+      }
+      @keyframes rotate3 {
+        0% {
+          transform: rotateZ(460deg)
+        }
+        100% {
+          transform: rotateZ(-180deg)
+        }
+      }
+      #text {
+        color: #D6E3F6;
+        font-family: Arial;
+        font-size: 15px;
+        position: relative;
+        top: -857px;
+      }
+</style>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>newwebsite</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = '2495232689';
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
 </head>
 <body>
-  <header>
-    <div class="navbar-fixed">
-    <nav>
-      <div class="nav-wrapper">
-        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-        <a href="#" class="brand-logo">Gdrive Batch</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="About.html">About</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">JavaScript</a></li>
-        </ul>
-      </div>
-    </nav>
+  <div class="spin-container">
+    <div class="spin" id="loader"></div>
+    <div class="spin" id="loader2"></div>
+    <div class="spin" id="loader3"></div>
+    <div class="spin" id="loader4"></div>
+    <span id="text">LOADING...</span>
   </div>
-
-  <ul id="slide-out" class="side-nav">
-    <li><div class="user-view">
-      <div class="background">
-        <img src="Res\vlcsnap-2017-05-29-17h53m02s337.png">
-      </div>
-      <a href="#!user"><img class="circle" src="Tema3/aw.png"></a>},ibgfaz
-  =[8T5]    <a href="#!name"><span class="white-text name">John Doe</span></a>
-      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
-    </div></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-    <li><a href="#!">Second Link</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="subheader">Subheader</a></li>
-    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-  </ul>
-  <div class="parallax-container">
-      <div class="parallax"><img src="Res\vlcsnap-2017-05-29-17h53m02s337.png"></div>
-    </div>
-
-    <div class="progress">
-        <div class="indeterminate"></div>
-    </div>
-
-  </header>
-  <body>
-<div class="row">
-<div class="col s2">
-<img src="https://a.ppy.sh/970470?1327276945.jpg" alt="" class="page-logo">
-</div>
-<div class="col s10">
-  <ul class="collapsible" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header">Judul Anime disini</div>
-      <div class="collapsible-body"><span>Button</span></div>
-    </li>
-    <li>
-      <div class="collapsible-header">Judul Anime disini(2)</div>
-      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
-    </li>
-    <li>
-      <div class="collapsible-header">[LoveMaster]Tsurezure Children [720p]</div>
-      <div class="collapsible-body"><span><a href="https://drive.google.com/open?id=0B7OdqNKb2nypMjBCS1dVNE9iTVU">Download Here</a></span></div>
-    </li>
-  </ul>
-</div>
-
-</div>
-
-</body>
-<footer>
-  <!-- Trigger to open Modal -->
-<a href="https://github.com/dolce/iziModal" class="trigger">Modal</a>
-<!-- Modal structure -->
-<div id="modal">
-    <!-- Page content -->
-    <div class="iziModal-header" style="background: rgb(136, 160, 185); padding-right: 44px;">
-      <i class="iziModal-header-icon icon-home"></i><h2 class="iziModal-header-title">Welcome to the iziModal</h2>
-      <p class="iziModal-header-subtitle">Elegant, responsive, flexible and lightweight modal plugin with jQuery.</p>
-      <div class="iziModal-header-buttons">
-        <a href="javascript:void(0)" class="iziModal-button iziModal-button-close" data-izimodal-close=""></a>
-        <a href="javascript:void(0)" class="iziModal-button iziModal-button-fullscreen" data-izimodal-fullscreen="" style="display: none;"></a>
-      </div>
-    </div>
-    <div class="wrap" style="height: auto;"><div class="iziModal-content" style="padding: 20px;">
-        <p>You have several possibilities to use the easy Modal, with options, and also data-attributes. Click below for see some examples.</p>
-        <h4><span>Ajax/Fetch</span></h4>
-        <footer>
-            <button class="btn btn-ajax">Load Ajax</button>
-            <button class="btn btn-fetch">Load Fetch</button>
-            <h4><span>Group</span></h4>
-            <button class="btn" data-izimodal-prev="">Prev Modal</button>
-            <button class="btn" data-izimodal-next="">Next Modal</button>
-            <h4><span>Data-Attributes</span></h4>
-            <button class="btn" data-izimodal-close="">Close</button>
-            <button class="btn" data-izimodal-fullscreen="">Fullscreen</button>
-            <button data-izimodal-open="#modal-custom" data-izimodal-transitionin="fadeInDown" data-izimodal-transitionout="fadeOutDown">Open other Modal</button>
-        </footer>
-    </div></div>
-</div>
-<div id="foottext">
-<a>Created by Rizal Afifuddin</a>
-</div>
-</footer>
-
-  <!--Import jQuery before materialize.js-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-  <script src="iziModal-master/js/iziModal.min.js" type="text/javascript"></script>
-  <script type="text/javascript">
-  $(document).on('click', '.trigger', function (event) {
-    event.preventDefault();
-    $('#modal').iziModal('open');
-});
-  $(document).ready(function(){
-    $("#modal").iziModal();
-    $('.collapsible').collapsible();
-    // Initialize collapse button
- $(".button-collapse").sideNav();
- // Initialize parallax
-      $('.parallax').parallax();
-  });
-
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        return appRunner.runApp();
+      });
+    });
   </script>
 </body>
 </html>
-
-  <head>
-  </head>
-
-  <body>
-  </body>
