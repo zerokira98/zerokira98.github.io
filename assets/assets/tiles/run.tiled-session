@@ -10,11 +10,11 @@
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "lvl01.tmx": {
-            "scale": 1.5,
+            "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 825,
-                "y": 262
+                "x": 245.5,
+                "y": 241
             }
         },
         "tileset1.tsx": {
