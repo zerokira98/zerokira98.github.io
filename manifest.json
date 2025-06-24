@@ -1,6 +1,6 @@
 {
-    "name": "newwebsite",
-    "short_name": "newwebsite",
+    "name": "order_makan",
+    "short_name": "order_makan",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
